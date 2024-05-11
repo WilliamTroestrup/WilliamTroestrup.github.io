@@ -1,11 +1,11 @@
 # Site settings
 title: Friborgen
-email: friborgen@gmail.com
+email: Friborgen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username: "@learningct"
+insta_username: "@friborgen_friborgen"
 linkedin_username: Christel Trøstrup Ph.D
 # Build settings
 markdown: kramdown
