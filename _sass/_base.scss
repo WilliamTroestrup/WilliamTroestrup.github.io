@@ -164,6 +164,8 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            margin-left: 200px;
+        .header-content-inner {
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -181,6 +183,7 @@ header {
             }
         }
     }
+}
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
@@ -348,4 +351,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
