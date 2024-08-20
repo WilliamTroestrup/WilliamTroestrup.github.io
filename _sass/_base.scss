@@ -160,32 +160,34 @@ header {
     .header-content {
         position: relative;
         width: 100%;
-        padding: 100px 0; // Removed horizontal padding
+        padding: 100px 0; // Vertical padding only
         .header-content-inner {
             text-align: right;
-            width: 100%; // Full width to allow content to reach the edge
-            padding-right: 15px; // Add some padding on the right
-            box-sizing: border-box; // Ensure padding is included in width
+            width: 100%;
+            padding-right: 0; // Remove right padding
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                padding-right: 15px; // Add padding to header text if needed
             }
             hr {
                 margin: 30px 0 30px auto;
-                width: 50%; // Adjust width of hr as needed
+                width: 50%;
+                padding-right: 15px; // Add padding to hr if needed
             }
             p {
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                padding-right: 15px; // Add padding to paragraph if needed
             }
             .btn {
                 float: right;
                 clear: both;
-                margin-right: 0; // Ensure button aligns with the right edge
+                margin-right: 15px; // Add a small margin to the button if needed
             }
         }
     }
