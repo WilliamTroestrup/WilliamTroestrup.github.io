@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    header .header-content {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      padding: 0 50px;
+      max-width: 50%;
+    }
+  
+    header .header-content .header-content-inner {
+      text-align: right;
+    }
+  
+    header .header-content .header-content-inner hr {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  
+    header .header-content .header-content-inner .btn {
+      float: right;
+    }
+  }
+  <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
