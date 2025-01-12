@@ -9,3 +9,11 @@ insta_username: "@friborgen_friborgen"
 linkedin_username: Christel Trøstrup Ph.D
 # Build settings
 markdown: kramdown
+exclude:
+  - NTUSER.DAT
+  - .git
+  - .svn
+  - .DS_Store
+  - .idea
+  - .vscode
+  - vendor

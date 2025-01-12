@@ -82,4 +82,29 @@ $theme-dark: #222;
     .hidden {
         display: none;
     }
-    
+// Add this to your main.scss
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the image covers the area without stretching */
+    z-index: -1;  /* Ensures the text stays above the image */
+}
+
+header .header-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 0 50px;
+    color: white;
+    z-index: 1;  /* Ensures the content is above the image */
+}
