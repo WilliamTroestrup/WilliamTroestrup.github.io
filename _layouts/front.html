@@ -10,6 +10,17 @@
   {% include portfolio.html %}
   {% include services.html %}
   {% include contact.html %}
+
+  <!-- Add the popup div here -->
+  <div id="portfolio-popup" class="popup hidden">
+      <div class="popup-content">
+          <span class="close">&times;</span>
+          <div id="popup-image-container"></div>
+          <h2 id="popup-title"></h2>
+          <p id="popup-text"></p>
+      </div>
+  </div>
+
   {% include scripts.html %}
 </body>
 
