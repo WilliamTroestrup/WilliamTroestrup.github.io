@@ -1,24 +1,26 @@
 <section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center text-center">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Kontakt Friborgen</h2>
                 <hr class="primary">
                 <p>Du er velkommen til at kontakte mig på Instagram, mail eller LinkedIn</p>
             </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
+
+            <!-- Now, using Flexbox for centering -->
+            <div class="col-lg-2">
                 <a href="mailto:{{ site.email }}">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p>{{ site.email }}</p>
                 </a>
             </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
+            <div class="col-lg-2">
                 <a href="https://www.linkedin.com/in/christel-trostrup/?originalSubdomain=dk">
                     <i class="fa fa-linkedin-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p>{{ site.linkedin_username }}</p>
                 </a>
             </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
+            <div class="col-lg-2">
                 <a href="https://www.instagram.com/friborgen_friborgen/">
                     <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p>{{ site.insta_username }}</p>
@@ -27,4 +29,3 @@
         </div>
     </div>
 </section>
-
