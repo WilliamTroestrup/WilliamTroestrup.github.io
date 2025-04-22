@@ -64,12 +64,6 @@
   text-align: center;
 }
 
-.portfolio-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .caption {
   padding: 15px 10px;
 }
@@ -85,31 +79,4 @@
   font-size: 18px;
   font-weight: bold;
   color: #333;
-}
-
-/* -------- Kontaktikoner (vandret layout) -------- */
-.contact-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.contact-box {
-  text-align: center;
-  min-width: 120px;
-}
-
-.contact-box i {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
-  color: #000;
-}
-
-.contact-box p {
-  margin: 0;
-  font-size: 0.9rem;
 }
