@@ -70,3 +70,10 @@
   text-align: center;
   min-width: 120px;
 }
+.portfolio-box-caption {
+  pointer-events: auto;
+}
+
+.portfolio-box-caption-content {
+  pointer-events: none;
+}
