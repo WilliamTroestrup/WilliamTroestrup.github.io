@@ -1,3 +1,4 @@
+/* -------- Header (tekst oven på billede) -------- */
 @media (min-width: 768px) {
   header .header-content {
     position: absolute;
@@ -22,66 +23,51 @@
   }
 }
 
-/* Container to hold image + text */
+/* -------- Header billedlayout -------- */
 .custom-header .header-wrapper {
-position: relative;
-height: 100vh;
-width: 100%;
-overflow: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
-/* Make the image full width */
 .custom-header .header-image {
-width: 100%;
-height: auto;
-display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Position the text on top of the image */
 .custom-header .header-content-inner {
-position: absolute;
-top: 55%;
-right: 5%;
-transform: translateY(-40%);
-text-align: right;
-max-width: 40%;
-color: white;
-z-index: 10;
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  transform: translateY(-40%);
+  text-align: right;
+  max-width: 40%;
+  color: white;
+  z-index: 10;
 }
 
 @media (max-width: 767px) {
-.custom-header .header-content-inner {
-  position: static;
-  transform: none;
-  text-align: center;
-  max-width: 100%;
-  padding: 1rem;
-}
-}
-.portfolio-item {
-margin-bottom: 30px;
-text-align: center;
+  .custom-header .header-content-inner {
+    position: static;
+    transform: none;
+    text-align: center;
+    max-width: 100%;
+    padding: 1rem;
+  }
 }
 
-.caption {
-padding: 15px 10px;
-}
-
-.caption-category {
-font-size: 14px;
-color: #888;
-text-transform: uppercase;
-letter-spacing: 1px;
-}
-
-.caption-title {
-font-size: 18px;
-font-weight: bold;
-color: #333;
-}
+/* -------- Portfolio layout -------- */
 .portfolio-item {
   margin-bottom: 30px;
   text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .caption {
@@ -99,4 +85,31 @@ color: #333;
   font-size: 18px;
   font-weight: bold;
   color: #333;
+}
+
+/* -------- Kontaktikoner (vandret layout) -------- */
+.contact-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-box {
+  text-align: center;
+  min-width: 120px;
+}
+
+.contact-box i {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #000;
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 0.9rem;
 }
