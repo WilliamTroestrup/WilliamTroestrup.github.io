@@ -82,29 +82,44 @@ $theme-dark: #222;
     .hidden {
         display: none;
     }
-// Add this to your main.scss
-header {
-    position: relative;
-    width: 100%;
-    height: 100vh;  /* Full viewport height */
-}
-
-.header-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  /* Ensures the image covers the area without stretching */
-    z-index: -1;  /* Ensures the text stays above the image */
-}
-
-header .header-content {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding: 0 50px;
-    color: white;
-    z-index: 1;  /* Ensures the content is above the image */
-}
+    .hover-box {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .hover-box img {
+        transition: transform 0.4s ease, filter 0.4s ease;
+      }
+      
+      .hover-box:hover img {
+        transform: scale(1.05);
+        filter: brightness(0.6);
+      }
+      
+      .caption-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+      }
+      
+      .caption-category {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        opacity: 0.9;
+      }
+      
+      .caption-title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 5px;
+      }
+      
