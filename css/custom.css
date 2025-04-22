@@ -58,22 +58,24 @@
     padding: 1rem;
   }
 }
-.contact-row {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
-.contact-box {
+.portfolio-item {
+  margin-bottom: 30px;
   text-align: center;
-  min-width: 120px;
-}
-.portfolio-box-caption {
-  pointer-events: auto;
 }
 
-.portfolio-box-caption-content {
-  pointer-events: none;
+.caption {
+  padding: 15px 10px;
+}
+
+.caption-category {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.caption-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
 }
