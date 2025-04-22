@@ -85,4 +85,29 @@
   font-weight: bold;
   color: #333;
 }
+.contact-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-box {
+  text-align: center;
+  min-width: 120px;
+}
+
+.contact-box i {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  color: #000;
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 1rem;
+}
 
