@@ -80,25 +80,23 @@ font-weight: bold;
 color: #333;
 }
 .portfolio-item {
-position: relative;
-overflow: hidden;
-cursor: pointer;
-}
-
-.portfolio-item img {
-transition: 0.4s ease;
-}
-
-.portfolio-item:hover img {
-transform: scale(1.05);
-filter: brightness(0.7);
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .caption {
-position: absolute;
-bottom: 15px;
-left: 0;
-width: 100%;
-color: white;
-text-shadow: 0 0 5px black;
+  padding: 15px 10px;
+}
+
+.caption-category {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.caption-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
 }
